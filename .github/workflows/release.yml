@@ -27,7 +27,6 @@ jobs:
           semantic_version: 19.0.5
           extra_plugins: |
             conventional-changelog-conventionalcommits@6.1.0
-            @semantic-release/git
           branches: |
             master
         env:
