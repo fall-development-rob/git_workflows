@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1](https://github.com/fall-development-rob/git_workflows/compare/v1.1.0...v1.1.1) (2024-06-14)
+
+
+### Bug Fixes
+
+* another fix check ([b7e2a2a](https://github.com/fall-development-rob/git_workflows/commit/b7e2a2a5ed508e5e42660093b54fcfc14cf794a6))
+* checking multiple fix commits ([0861222](https://github.com/fall-development-rob/git_workflows/commit/08612227b9e87768386aa9957545ffd0cf1ed5ff))
+
 # [1.1.0](https://github.com/fall-development-rob/git_workflows/compare/v1.0.1...v1.1.0) (2024-06-14)
 
 
