@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.6](https://github.com/fall-development-rob/git_workflows/compare/v1.1.5...v1.1.6) (2024-06-14)
+
+
+### Code Refactoring
+
+* add conventional commit ([575423c](https://github.com/fall-development-rob/git_workflows/commit/575423c98c8fa41523c53543ab1e729287c860e1))
+* another try ([ac674c2](https://github.com/fall-development-rob/git_workflows/commit/ac674c29e3a73fdd1b9a631fd15dcdd9bb961beb))
+* back to conventional ([ed0c94d](https://github.com/fall-development-rob/git_workflows/commit/ed0c94d20313a040c9b09afec5f13c6edbe90198))
+* testing refactor release ([dffe93b](https://github.com/fall-development-rob/git_workflows/commit/dffe93b1aaadb32fd9c476708111d069c7f640cb))
+
 ## [1.1.5](https://github.com/fall-development-rob/git_workflows/compare/v1.1.4...v1.1.5) (2024-06-14)
 
 ## [1.1.4](https://github.com/fall-development-rob/git_workflows/compare/v1.1.3...v1.1.4) (2024-06-14)
