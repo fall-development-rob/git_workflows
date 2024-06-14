@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.7](https://github.com/fall-development-rob/git_workflows/compare/v1.1.6...v1.1.7) (2024-06-14)
+
+
+### Documentation
+
+* **README:** updating readme ([653fb6b](https://github.com/fall-development-rob/git_workflows/commit/653fb6b4d9fdc2e256e1ec771ad125c7b6a81271))
+
 ## [1.1.6](https://github.com/fall-development-rob/git_workflows/compare/v1.1.5...v1.1.6) (2024-06-14)
 
 
