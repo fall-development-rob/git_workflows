@@ -1,36 +1,51 @@
 {
-    "branches": [
-        "master"
-        ],
-    "plugins": [
-        "@semantic-release/commit-analyzer",
-        {
-            "releaseRules": [
-              { "type": "docs", "scope": "README", "release": "patch" },
-              { "type": "refactor", "release": "patch" },
-              { "type": "style", "release": "patch" }
-            ],
-            "parserOpts": {
-              "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
-            }
+  "branches": [
+    "master"
+  ],
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "releaseRules": [
+          {
+            "type": "docs",
+            "scope": "README",
+            "release": "patch"
           },
-        "@semantic-release/release-notes-generator",
-        [
-            "@semantic-release/changelog",
-            {
-            "changelogFile": "CHANGELOG.md",
-            "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file."
-            }
+          {
+            "type": "refactor",
+            "release": "patch"
+          },
+          {
+            "type": "style",
+            "release": "patch"
+          }
         ],
-        "@semantic-release/github",
-        [
-            "@semantic-release/git",
-            {
-            "assets": [
-                "CHANGELOG.md"
-            ],
-            "message": "chore(release): version ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-            }
-        ]
+        "parserOpts": {
+          "noteKeywords": [
+            "BREAKING CHANGE",
+            "BREAKING CHANGES"
+          ]
+        }
+      }
+    ],
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md",
+        "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file."
+      }
+    ],
+    "@semantic-release/github",
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "CHANGELOG.md"
+        ],
+        "message": "chore(release): version ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
     ]
+  ]
 }
