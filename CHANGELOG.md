@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://github.com/fall-development-rob/git_workflows/compare/v1.1.7...v1.2.0) (2024-06-14)
+
+
+### Features
+
+* only run action on PR merge to master ([6a3edc3](https://github.com/fall-development-rob/git_workflows/commit/6a3edc3e3ee1a1339ddbecaccd4fea9c52ae0625))
+* only run action on PR merge to master ([72a4b32](https://github.com/fall-development-rob/git_workflows/commit/72a4b324a7f33fafaf36013f00b0fef17c1ae2c6))
+
 ## [1.1.7](https://github.com/fall-development-rob/git_workflows/compare/v1.1.6...v1.1.7) (2024-06-14)
 
 
