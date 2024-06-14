@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.2](https://github.com/fall-development-rob/git_workflows/compare/v1.1.1...v1.1.2) (2024-06-14)
+
 ## [1.1.1](https://github.com/fall-development-rob/git_workflows/compare/v1.1.0...v1.1.1) (2024-06-14)
 
 
