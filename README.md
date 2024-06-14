@@ -1,1 +1,3 @@
-Testing out some github actions
+# Github actions
+
+## Auto Release Tagging and changelog
