@@ -1,4 +1,4 @@
-name: Release
+name: z[reusable release]
 on:
   pull_request:
     branches:
