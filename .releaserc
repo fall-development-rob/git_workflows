@@ -55,7 +55,7 @@
       }
     ],
     [
-      "@semantic-release/changelog",
+      "conventional-changelog-conventionalcommits",
       {
         "changelogFile": "CHANGELOG.md",
         "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file."
