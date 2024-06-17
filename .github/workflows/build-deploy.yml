@@ -1,0 +1,50 @@
+name: Deploy a test build
+
+run-name: |
+  Build and deploy '${{ inputs.sha || github.ref_name }}' to ${{ inputs.space }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      sha:
+        description: Deploy from (commit hash)
+        required: false
+      space:
+        description: Deploy to
+        required: true
+        type: choice
+        options:
+          - sandbox
+          - testing
+          - preprod
+
+concurrency:
+  group: ${{ github.workflow }}-${{ inputs.sha || github.ref_name }}-${{ inputs.space }}
+  cancel-in-progress: true
+
+jobs:
+  release:
+    uses: ./.github/workflows/release.yml
+    secrets: inherit
+    with:
+      space: ${{ inputs.space }}
+      publish: true
+   
+   
+   
+  # build:
+    # uses: ./.github/workflows/.reusable-build.yml
+    # secrets: inherit
+    # with:
+    #   ref: ${{ inputs.sha || github.ref_name }}
+    #   prerelease: true
+    #   space: ${{ inputs.space }}
+
+  # deploy:
+  #   needs: [build]
+  #   uses: ./.github/workflows/.reusable-deploy.yml
+  #   secrets: inherit
+  #   with:
+  #     space: ${{ inputs.space }}
+  #     frontend_version: ${{ needs.build.outputs.frontend_version }}
+  #     scheduler_version: ${{ needs.build.outputs.scheduler_version }}
