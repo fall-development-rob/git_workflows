@@ -14,9 +14,9 @@ jobs:
   release:
     if: inputs.publish == true # only publish from certain workflows
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      issues: write
+    # permissions:
+    #   contents: write
+    #   issues: write
 
     steps:
       - name: Checkout
