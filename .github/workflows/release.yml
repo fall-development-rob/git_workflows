@@ -1,14 +1,18 @@
 name: z[reusable release]
 on:
-  pull_request:
-    branches:
-      - master
-    types:
-      - closed
+  workflow_call:
+    inputs:
+      space:
+        required: true
+        type: string
+      publish:
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   release:
-    if: github.event.pull_request.merged == true
+    if: inputs.publish == true # only publish from certain workflows
     runs-on: ubuntu-latest
     permissions:
       contents: write
