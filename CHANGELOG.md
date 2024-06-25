@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0](https://github.com/fall-development-rob/git_workflows/compare/v1.2.0...v2.0.0) (2024-06-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* this changes the mechanism that controls the action.
+
+### Features
+
+* **release:** trying out the release scope ([536481c](https://github.com/fall-development-rob/git_workflows/commit/536481c8795b0db09179b1dd8ae8f0017967ad01))
+* restrict only to pr ([298426a](https://github.com/fall-development-rob/git_workflows/commit/298426af99459b74fb564b857ccabd701a6155db))
+
+
+### Bug Fixes
+
+* **ci:** removing the release permissions declaration ([1219ce7](https://github.com/fall-development-rob/git_workflows/commit/1219ce75db5109f0f6d498e7e2031af8d9039226))
+
 ## [1.2.0](https://github.com/fall-development-rob/git_workflows/compare/v1.1.7...v1.2.0) (2024-06-14)
 
 
